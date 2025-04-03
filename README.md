@@ -6,8 +6,9 @@ This project is an independent case study focused on analyzing customer retentio
 
 ## Tools Used:
 
-<img src="https://raw.githubusercontent.com/wallmaden/ECommerce_Customer_Retention_Analysis/main/assets/icons/postgresql.png" alt="PostgreSQL" width="50"/>
-<img src="https://raw.githubusercontent.com/wallmaden/ECommerce_Customer_Retention_Analysis/main/assets/icons/powerbi.png" alt="Power BI" width="50"/>
+<img src="https://raw.githubusercontent.com/wallmaden/ECommerce-Customer-Retention-Analysis-with-SQL/main/assets/icons/PostgreSQL_logo_PNG3.png" alt="PostgreSQL" width="50"/>
+<img src="https://raw.githubusercontent.com/wallmaden/ECommerce-Customer-Retention-Analysis-with-SQL/main/assets/icons/power-bi-microsoft-seeklogo.png" alt="Power BI" width="50"/>
+
 
 ## Objective
 
