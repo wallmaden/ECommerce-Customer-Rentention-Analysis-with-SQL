@@ -90,23 +90,23 @@ To explore and visualize customer behavior within an e-commerce marketplace (Oli
 
 ## SQL Analysis: Key Business Questions
 
-1. Customer Segmentation
+1. **Customer Segmentation**
 - Which cities/states have highest revenue?
 - Who are high-LTV or repeat customers?
 
-2. Sales & Product Trends
+2. **Sales & Product Trends**
 - Top-performing product categories
 - Monthly sales trends
 
-3. Delivery Experience
+3. **Delivery Experience**
 - Avg. delivery time vs. estimated
 - Delays by region
 
-4. Payment Behaviour
+4. **Payment Behaviour**
 - Credit vs. voucher usage
 - Avg. basket size
 
-5. Churn & Retention
+5. **Churn & Retention**
 - What % of customers reorder?
 - Where is churn highest?
 
@@ -138,13 +138,13 @@ Delivery Experience Overview
 
 ## Project Deliverables
 
-Item	                  Description
+**Item**	                  **Description**
 
-SQL Scripts	            CTEs, joins, views
-Power BI File	          Interactive dashboards
-ERD Diagram	            Entity Relationships
-Insights Summary	      Business recommendations
-Cleaning Scripts	      Python scripts
+**SQL Scripts**	            CTEs, joins, views
+**Power BI File**	          Interactive dashboards
+**ERD Diagram**	            Entity Relationships
+**Insights Summary**	      Business recommendations
+**Cleaning Scripts**	      Python scripts
 
 ## Key Insights
 
