@@ -4,12 +4,12 @@ To explore, analyse, and visualise customer behaviour within an e-commerce marke
 ## Project Summary
 This project is an independent case study focused on analyzing customer retention within the Brazilian e-commerce marketplace. Using PostgreSQL for data analysis and Power BI for visualisation, the study explores patterns in customer behavior, satisfaction, and churn. Techniques such as cohort analysis, geospatial mapping, and RFM segmentation were applied to uncover key insights into high-value customer segments and retention drivers. These findings support actionable recommendations for marketing, logistics, and retention strategy teams.
 
-### Tools Used:
+## Tools Used:
 
 <img src="https://raw.githubusercontent.com/wallmaden/ECommerce_Customer_Retention_Analysis/main/assets/icons/postgresql.png" alt="PostgreSQL" width="50"/>
 <img src="https://raw.githubusercontent.com/wallmaden/ECommerce_Customer_Retention_Analysis/main/assets/icons/powerbi.png" alt="Power BI" width="50"/>
 
-### Objective
+## Objective
 
 To explore and visualize customer behavior within an e-commerce marketplace (Olist Brazil) — focusing on:
 - Purchasing patterns
@@ -19,19 +19,19 @@ To explore and visualize customer behavior within an e-commerce marketplace (Oli
 - Product category performance
 - Retention strategies
 
-### Tools & Technologies
+## Tools & Technologies
 
 - SQL (PostgreSQL via pgAdmin 4) – Data prep, transformation, CTEs, JOINs, Window Functions
 - Power BI – Data model + dashboarding
 - Python – For early cleaning (null handling, parsing, merging)
 - ERD Tool – For schema visualization
 
-### Folders
+## Folders
 
-### Dataset Information
-#### Source:
+## Dataset Information
+### Source:
 
-### Data Cleaning Summary
+## Data Cleaning Summary
 
 - Dropped nulls and duplicates
 - Converted timestamp fields
@@ -40,7 +40,7 @@ To explore and visualize customer behavior within an e-commerce marketplace (Oli
 - Merged fields like city/state
 - Created derived columns: delivery time, time to review, etc.
 
-### SQL Analysis: Key Business Questions
+## SQL Analysis: Key Business Questions
 
 1. Customer Segmentation
 - Which cities/states have highest revenue?
@@ -62,7 +62,7 @@ To explore and visualize customer behavior within an e-commerce marketplace (Oli
 - What % of customers reorder?
 - Where is churn highest?
 
-### Power BI Dashboards
+## Power BI Dashboards
 
 Customer Heatmap
 - Geospatial visualization of customer concentration and spending
@@ -88,7 +88,7 @@ Delivery Experience Overview
 - Avg. delivery time vs. estimated
 - Delivery issues by location
 
-### Project Deliverables
+## Project Deliverables
 
 Item	                  Description
 
@@ -98,7 +98,7 @@ ERD Diagram	            Entity Relationships
 Insights Summary	      Business recommendations
 Cleaning Scripts	      Python scripts
 
-### Key Insights
+## Key Insights
 
 - High-spend states: [fill from visuals]
 
@@ -110,7 +110,7 @@ Cleaning Scripts	      Python scripts
 
 - Repeat customers favor [category]
 
-### Next Steps / Future Enhancements
+## Next Steps / Future Enhancements
 
 - Incorporate time series forecasting
 
@@ -120,7 +120,7 @@ Cleaning Scripts	      Python scripts
 
 - Link to web analytics (if available)
 
-### Learnings
+## Learnings
 
 - Real-world datasets contain messy fields and foreign characters
 - Importance of combining geolocation with business logic
