@@ -1,4 +1,4 @@
-# ECommerce_Customer_Retention_Analysis
+# ECommerce_Customer_Retention_Analysis_with_SQL
 To explore, analyse, and visualise customer behaviour within an e-commerce marketplace, focusing on purchasing patterns, customer churn, delivery trends, and segment performance. 
 
 ## Project Summary
