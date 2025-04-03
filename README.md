@@ -1,7 +1,8 @@
 # ECommerce_Customer_Retention_Analysis
-To explore, analyse, and visualize customer behaviour within an e-commerce marketplace, focusing on purchasing patterns, customer churn, delivery trends, and segment performance. 
-This insight aims to help marketing, logistics, and retention strategy teams.
-In this project, an analysis will be carried out using PostgreSQL and visualising the results using Power BI.
+To explore, analyse, and visualise customer behaviour within an e-commerce marketplace, focusing on purchasing patterns, customer churn, delivery trends, and segment performance. 
+
+## Project Summary
+This project is an independent case study focused on analyzing customer retention within the Brazilian e-commerce marketplace. Using PostgreSQL for data analysis and Power BI for visualisation, the study explores patterns in customer behavior, satisfaction, and churn. Techniques such as cohort analysis, geospatial mapping, and RFM segmentation were applied to uncover key insights into high-value customer segments and retention drivers. These findings support actionable recommendations for marketing, logistics, and retention strategy teams.
 
 ### Tools Used:
 
@@ -24,6 +25,11 @@ To explore and visualize customer behavior within an e-commerce marketplace (Oli
 - Power BI – Data model + dashboarding
 - Python – For early cleaning (null handling, parsing, merging)
 - ERD Tool – For schema visualization
+
+### Folders
+
+### Dataset Information
+#### Source:
 
 ### Data Cleaning Summary
 
