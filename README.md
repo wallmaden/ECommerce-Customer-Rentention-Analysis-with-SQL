@@ -32,6 +32,8 @@ To explore and visualize customer behavior within an e-commerce marketplace (Oli
 
 ### ERD/Model Files:
 
+
+
 ### Power BI Visualisation: 
 
 ## Data Preparation
