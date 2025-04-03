@@ -32,9 +32,9 @@ To explore and visualize customer behavior within an e-commerce marketplace (Oli
 
 ### ERD/Model Files:
 
-## Customer Retention Model
-
 ![Customer Retention Model](https://github.com/wallmaden/ECommerce-Customer-Retention-Analysis-with-SQL/raw/main/04%20Analysis%20%26%20Visualisations/Model.docx-1.png)
+
+## Customer Retention Model
 
 ### Power BI Visualisation: 
 
