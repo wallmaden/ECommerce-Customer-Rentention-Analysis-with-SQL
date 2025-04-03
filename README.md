@@ -29,16 +29,68 @@ To explore and visualize customer behavior within an e-commerce marketplace (Oli
 ## Folders
 
 ## Dataset Information
+
 ### Source:
 
-## Data Cleaning Summary
+### ERD/Model Files:
+### Power BI Visualisation: 
 
+## Data Preparation
+
+1. Create database & Tables
+
+#### Create Tables
+Created multiple SQL views in PostgreSQL based on the original 8 datasets from the Olist e-commerce database. These views were designed using structured CREATE VIEW queries to join, transform, and enrich the raw tables — optimizing them for analysis and seamless integration into Power BI. Each view included relevant columns, calculated fields, and appropriate data types to support key business questions and visualizations.
+
+#### List of Tables: 
+The following 8 base tables were used from the Olist e-commerce dataset:
+
+- `olist_customers` – Contains customer IDs and location information.
+- `olist_geolocation` – Maps zip codes to geographical coordinates (lat/lng).
+- `olist_order_items` – Includes details about items in each order.
+- `olist_order_payments` – Captures payment types and values per order.
+- `olist_orders` – Master order table with status and timestamp metadata.
+- `olist_products` – Product-level metadata including category and dimensions.
+- `olist_sellers` – Seller IDs and their location details.
+- `product_category_name_translation` – English translations of product category names.
+
+#### List of Views
+To prepare the data for Power BI analysis, 19 SQL views were created in PostgreSQL. These views joined, cleaned, and aggregated the original tables to support specific business questions related to customer behavior, retention, delivery performance, and sales trends.
+
+- `v_avg_basket_size_per_customer` – Calculates the average basket size per customer.
+- `v_customer_cohort` – Assigns customers to monthly signup cohorts for retention analysis.
+- `v_customer_order_dates` – Extracts first and last order dates for each customer.
+- `v_customer_orders_with_cohort` – Combines customer orders with their cohort labels.
+- `v_customer_value_by_customer_location` – Summarizes revenue per customer by city and state.
+- `v_delivery_timeliness` – Compares actual vs. estimated delivery times.
+- `v_geographic_delivery_delays` – Maps late deliveries by region.
+- `v_high_value_late_orders` – Flags orders that were both high-value and delayed.
+- `v_high_value_transactions` – Filters transactions above a certain revenue threshold.
+- `v_order_status_summary` – Summarizes the distribution of order statuses.
+- `v_overall_avg_basket_size` – Computes average basket size across all customers.
+- `v_payment_type_by_location` – Analyzes payment preferences by geography.
+- `v_payment_type_preferences` – Shows overall payment type usage.
+- `v_repeat_customers_rate` – Calculates the rate of repeat vs. one-time customers.
+- `v_repeat_customers_summary` – Summarizes repeat purchase behavior.
+- `v_sales_seasonality` – Aggregates sales by month to detect seasonality.
+- `v_top_categories` – Lists top-selling product categories.
+- `v_top_customer_cities` – Identifies cities with the highest customer value.
+
+2. Importing the Data
+
+#### Data Cleaning Summary (using Python)
 - Dropped nulls and duplicates
 - Converted timestamp fields
 - Standardized product category names
 - Joined zipcodes to geolocation data
 - Merged fields like city/state
 - Created derived columns: delivery time, time to review, etc.
+
+#### Importing Data into Power BI
+After creating SQL views in PostgreSQL, the data was imported directly into Power BI via the PostgreSQL connector, ready for visualization without additional transformation.
+
+3. Model Relationship:
+[Image]
 
 ## SQL Analysis: Key Business Questions
 
