@@ -139,14 +139,18 @@ Churn & Retention
 Delivery Experience Overview
 - Avg. delivery time vs. estimated
 
+## Delivery Difference Days by Quarter and Month
+
+![delivery_diff_days by Quarter and Month](https://github.com/wallmaden/ECommerce-Customer-Retention-Analysis-with-SQL/raw/main/04%20Analysis%20%26%20Visualisations/delivery_diff_days%20by%20Quarter%20and%20Month.png)
+
+- Delivery issues by location
+
 ## Average Delivery Delay by Customer State
 
 ![Sum of avg_delay_days by customer_state](https://github.com/wallmaden/ECommerce-Customer-Retention-Analysis-with-SQL/raw/main/04%20Analysis%20%26%20Visualisations/Sum%20of%20avg_delay_days%20by%20customer_state.png)
 ## Table of Average Delivery Delay by Customer State
 
 ![Table of avg_delay_days by customer_state](https://github.com/wallmaden/ECommerce-Customer-Retention-Analysis-with-SQL/raw/main/04%20Analysis%20%26%20Visualisations/Table%20of%20avg_delay_days%20by%20customer_state.png)
-
-- Delivery issues by location
 
 ## Project Deliverables
 
