@@ -26,13 +26,12 @@ To explore and visualize customer behavior within an e-commerce marketplace (Oli
 - Python – For early cleaning (null handling, parsing, merging)
 - ERD Tool – For schema visualization
 
-## Folders
-
 ## Dataset Information
 
-### Source:
+### Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ### ERD/Model Files:
+
 ### Power BI Visualisation: 
 
 ## Data Preparation
