@@ -38,6 +38,16 @@ To explore and visualize customer behavior within an e-commerce marketplace (Oli
 
 ### Power BI Visualisation: 
 
+## Project Deliverables
+
+**Item**	                  **Description**
+
+**SQL Scripts**	            CTEs, joins, views
+**Power BI File**	          Interactive dashboards
+**ERD Diagram**	            Entity Relationships
+**Insights Summary**	      Business recommendations
+**Cleaning Scripts**	      Python scripts
+
 ## Data Preparation
 
 1. **Create database & Tables**
@@ -152,27 +162,44 @@ Delivery Experience Overview
 
 ![Table of avg_delay_days by customer_state](https://github.com/wallmaden/ECommerce-Customer-Retention-Analysis-with-SQL/raw/main/04%20Analysis%20%26%20Visualisations/Table%20of%20avg_delay_days%20by%20customer_state.png)
 
-## Project Deliverables
-
-**Item**	                  **Description**
-
-**SQL Scripts**	            CTEs, joins, views
-**Power BI File**	          Interactive dashboards
-**ERD Diagram**	            Entity Relationships
-**Insights Summary**	      Business recommendations
-**Cleaning Scripts**	      Python scripts
-
 ## Key Insights
 
-- High-spend states: [fill from visuals]
+**High-spend states:** (total between 2016–2018)
 
-- Delivery delays = lower satisfaction in [region]
+- SP – São Paulo is the highest-spending state, accounting for 37.5% of total spend.
+- RJ – Rio de Janeiro follows with 13.4%, and
+- MG – Minas Gerais closely trails with 11.7%.
+- Action Point: These three states alone contribute to 62.6% of total business spend, highlighting strong marketing and growth opportunities in these regions.
 
-- Most churn-prone customers in [X] areas
+**Delivery delays = lower satisfaction:** 
 
-- Credit card users contribute highest AOV
+- Delivery delays follow a monthly trend: the worst delays occurred in June (Q2), with improvements in Q3, followed by a worsening again in Q4.
+- This emphasizes the need for a logistics and resource strategy to address seasonal (summer) bottlenecks.
+
+- Top Delayed States: AL – Alagoas, RO – Rondônia, TO – Tocantins, and ES – Espírito Santo experience the most significant delivery delays.
+- Action Point: Logistics teams should investigate and address the root causes of these delays in the affected regions.
+
+- 
+
+**Most churn-prone customers:** 
+
+- in [X] areas
+
+**Payment types**:
+
+- Credit card users make up the majority, accounting for 73.9% of total transactions.
+- Boleto (short for boleto bancário) follows, with a 19.0% share.
+- This distribution is mirrored in São Paulo (SP), the largest customer base.
+- Between 2017 and 2018, credit card usage increased, indicating a shift towards more banked customers, as opposed to boleto users who may be unbanked or prefer offline payment methods.
+- Additionally, credit card users show the highest Average Order Value (AOV).
+
+Action Points:
+- Marketing teams should target credit card users more aggressively, especially in high-spend regions like SP – São Paulo.
+- Campaigns can emphasize secure, flexible, and high-value purchasing options tied to card usage.
+- At the same time, consider strategies to convert boleto users into banked payment methods (e.g. offering incentives or educational content).
 
 - Repeat customers favor [category]
+  
 
 ## Next Steps / Future Enhancements
 
@@ -186,7 +213,7 @@ Delivery Experience Overview
 
 ## Learnings
 
-- Real-world datasets contain messy fields and foreign characters
+- Real-world datasets contain messy fields and foreign characters, requiring correct cleaning processes to aviod any calculation issues.
 - Importance of combining geolocation with business logic
-- Power BI’s slicers/filters enhance story-telling
+- Power BI’s slicers/filters enhance story-telling, specifically Date_hierarchy's
 - SQL window functions power cohort and ranking analysis
