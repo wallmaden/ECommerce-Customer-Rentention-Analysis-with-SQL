@@ -188,6 +188,15 @@ See the `/Sample_Data/` directory for a previewable version of cleaned inputs.
 
 ---
 
+## Author
+
+**Paul Maden**  
+Business & Data Analyst  
+🌐 [www.paulsmaden.com](https://www.paulsmaden.com)  
+📧 wallmaden@hotmail.com  
+
+---
+
 > _"Data tells you what happened. Retention analytics tells you what could’ve been prevented."_  
 > — _Paul Maden_
 
