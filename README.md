@@ -131,31 +131,31 @@ Examples:
 
 ## Key Insights
 
-**📍 High-spend States (2016–2018)**  
+**High-spend States (2016–2018)**  
 - SP: 37.5% of total spend  
 - RJ: 13.4%  
 - MG: 11.7%  
 > These three states contribute **62.6%** of business, ideal for targeted growth.
 
-**🚚 Delivery Delays Impact Satisfaction**
+**Delivery Delays Impact Satisfaction**
 - Worst delays in **Q2**, recovery in **Q3**, worsened again in **Q4**
 - Most delayed states: **AL, RO, TO, ES**
 
-**👎 Churn-Prone Customers**
+**Churn-Prone Customers**
 - Higher churn in **Northern and Northeastern** regions
 - Linked to slower deliveries and heavier reliance on boleto
 
-**💳 Payment Trends**
+**Payment Trends**
 - 73.9% credit card, 19.0% boleto
 - Credit card users have higher AOV and increasing usage year-on-year
 
-**🛒 Repeat Customer Product Categories**
+**Repeat Customer Product Categories**
 - Most repeat: **Health & Beauty**, **Books**, **Pet Products**
 - Least repeat: **Furniture**, **Electronics**
 
 ---
 
-## 📂 Sample Datasets Included
+## Sample Datasets Included
 
 This repo includes GitHub-friendly `.csv` samples (1000 rows) for:
 - Customers
@@ -169,7 +169,7 @@ See the `/Sample_Data/` directory for a previewable version of cleaned inputs.
 
 ---
 
-## ✅ Next Steps / Future Enhancements
+## Next Steps / Future Enhancements
 
 - Incorporate time-series forecasting models (Prophet, ARIMA)
 - Churn risk scoring using predictive ML
