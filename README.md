@@ -196,7 +196,3 @@ Business & Data Analyst
 📧 wallmaden@hotmail.com  
 
 ---
-
-> _"Data tells you what happened. Retention analytics tells you what could’ve been prevented."_  
-> — _Paul Maden_
-
