@@ -113,6 +113,14 @@ Examples:
 **Churn & Retention** – Cohort reordering, churn map  
 **Delivery Overview** – Delay days, regions, causes
 
+## 📥 Download Power BI Report (PBIX)
+
+You can download the full Power BI report used in this project below:
+
+🔗 [Download Power BI Report – ECommerce Customer Retention Case Study (PBIX)](https://drive.google.com/file/d/1xeVcNbYvTLqomBq6Rud8rNr61_plK2Ki/view?usp=drive_link)
+
+> *Note: File is hosted via Google Drive. Open the link and click the download icon in the top-right corner.*
+
 ---
 
 ## Delivery Difference Days by Quarter and Month
