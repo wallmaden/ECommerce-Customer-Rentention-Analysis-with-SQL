@@ -113,7 +113,7 @@ Examples:
 **Churn & Retention** – Cohort reordering, churn map  
 **Delivery Overview** – Delay days, regions, causes
 
-## 📥 Download Power BI Report (PBIX)
+## Download Power BI Report (PBIX)
 
 You can download the full Power BI report used in this project below:
 
